@@ -1,0 +1,210 @@
+[
+	{
+		"constant": false,
+		"inputs": [
+			{
+				"name": "_new",
+				"type": "address"
+			}
+		],
+		"name": "setOwner",
+		"outputs": [],
+		"payable": false,
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"constant": false,
+		"inputs": [],
+		"name": "finalizeChange",
+		"outputs": [],
+		"payable": false,
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"constant": true,
+		"inputs": [],
+		"name": "owner",
+		"outputs": [
+			{
+				"name": "",
+				"type": "address"
+			}
+		],
+		"payable": false,
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"constant": false,
+		"inputs": [
+			{
+				"name": "_parentHash",
+				"type": "bytes32"
+			},
+			{
+				"name": "_newSet",
+				"type": "address[]"
+			}
+		],
+		"name": "initiateChange",
+		"outputs": [],
+		"payable": false,
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"constant": true,
+		"inputs": [],
+		"name": "relayedSet",
+		"outputs": [
+			{
+				"name": "",
+				"type": "address"
+			}
+		],
+		"payable": false,
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"constant": true,
+		"inputs": [],
+		"name": "getValidators",
+		"outputs": [
+			{
+				"name": "",
+				"type": "address[]"
+			}
+		],
+		"payable": false,
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"constant": false,
+		"inputs": [
+			{
+				"name": "_relayedSet",
+				"type": "address"
+			}
+		],
+		"name": "setRelayed",
+		"outputs": [],
+		"payable": false,
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"constant": false,
+		"inputs": [
+			{
+				"name": "_validator",
+				"type": "address"
+			},
+			{
+				"name": "_blockNumber",
+				"type": "uint256"
+			},
+			{
+				"name": "_proof",
+				"type": "bytes"
+			}
+		],
+		"name": "reportMalicious",
+		"outputs": [],
+		"payable": false,
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"constant": true,
+		"inputs": [],
+		"name": "systemAddress",
+		"outputs": [
+			{
+				"name": "",
+				"type": "address"
+			}
+		],
+		"payable": false,
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"constant": false,
+		"inputs": [
+			{
+				"name": "_validator",
+				"type": "address"
+			},
+			{
+				"name": "_blockNumber",
+				"type": "uint256"
+			}
+		],
+		"name": "reportBenign",
+		"outputs": [],
+		"payable": false,
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [],
+		"payable": false,
+		"stateMutability": "nonpayable",
+		"type": "constructor"
+	},
+	{
+		"anonymous": false,
+		"inputs": [
+			{
+				"indexed": true,
+				"name": "old",
+				"type": "address"
+			},
+			{
+				"indexed": true,
+				"name": "current",
+				"type": "address"
+			}
+		],
+		"name": "NewRelayed",
+		"type": "event"
+	},
+	{
+		"anonymous": false,
+		"inputs": [
+			{
+				"indexed": true,
+				"name": "_parentHash",
+				"type": "bytes32"
+			},
+			{
+				"indexed": false,
+				"name": "_newSet",
+				"type": "address[]"
+			}
+		],
+		"name": "InitiateChange",
+		"type": "event"
+	},
+	{
+		"anonymous": false,
+		"inputs": [
+			{
+				"indexed": true,
+				"name": "old",
+				"type": "address"
+			},
+			{
+				"indexed": true,
+				"name": "current",
+				"type": "address"
+			}
+		],
+		"name": "NewOwner",
+		"type": "event"
+	}
+]
