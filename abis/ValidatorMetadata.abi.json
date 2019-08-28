@@ -1,48 +1,5 @@
 [
 	{
-		"constant": true,
-		"inputs": [
-			{
-				"name": "memberAddress",
-				"type": "address"
-			}
-		],
-		"name": "validatorsMetadata",
-		"outputs": [
-			{
-				"name": "",
-				"type": "string"
-			},
-			{
-				"name": "",
-				"type": "string"
-			},
-			{
-				"name": "",
-				"type": "string"
-			},
-			{
-				"name": "",
-				"type": "string"
-			},
-			{
-				"name": "",
-				"type": "string"
-			},
-			{
-				"name": "",
-				"type": "string"
-			},
-			{
-				"name": "sender",
-				"type": "address"
-			}
-		],
-		"payable": false,
-		"stateMutability": "view",
-		"type": "function"
-	},
-	{
 		"constant": false,
 		"inputs": [
 			{
@@ -87,5 +44,48 @@
 		],
 		"name": "CreatedMetadata",
 		"type": "event"
+	},
+	{
+		"constant": true,
+		"inputs": [
+			{
+				"name": "memberAddress",
+				"type": "address"
+			}
+		],
+		"name": "validatorsMetadata",
+		"outputs": [
+			{
+				"name": "firstName",
+				"type": "string"
+			},
+			{
+				"name": "lastName",
+				"type": "string"
+			},
+			{
+				"name": "contactEmail",
+				"type": "string"
+			},
+			{
+				"name": "researchInstitute",
+				"type": "string"
+			},
+			{
+				"name": "researchField",
+				"type": "string"
+			},
+			{
+				"name": "instituteAddress",
+				"type": "string"
+			},
+			{
+				"name": "sender",
+				"type": "address"
+			}
+		],
+		"payable": false,
+		"stateMutability": "view",
+		"type": "function"
 	}
 ]
