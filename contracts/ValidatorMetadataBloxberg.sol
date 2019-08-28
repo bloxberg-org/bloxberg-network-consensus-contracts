@@ -5,7 +5,7 @@ import "./interfaces/BaseOwnedSet.sol";
 import "./RelaySet.sol";
 
 
-contract ValidatorMetadata is BaseOwnedSet {
+contract ValidatorMetadata {
 
     struct ConsortiumMember {        
         address sender;
@@ -48,12 +48,12 @@ contract ValidatorMetadata is BaseOwnedSet {
     }
 
     function validatorsMetadata(address memberAddress) public view returns (
-        string memory,
-        string memory,
-        string memory,
-        string memory,
-        string memory,
-        string memory,
+        string firstName,
+        string lastName,
+        string contactEmail,
+        string researchInstitute,
+        string researchField,
+        string instituteAddress,
         address sender
     ) {
         return (
