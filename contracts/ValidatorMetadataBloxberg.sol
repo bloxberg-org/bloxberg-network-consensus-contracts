@@ -48,12 +48,12 @@ contract ValidatorMetadata {
     }
 
     function validatorsMetadata(address memberAddress) public view returns (
-        string firstName,
-        string lastName,
-        string contactEmail,
-        string researchInstitute,
-        string researchField,
-        string instituteAddress,
+        string memory,
+        string memory,
+        string memory,
+        string memory,
+        string memory,
+        string memory,
         address sender
     ) {
         return (

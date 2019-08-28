@@ -10,27 +10,27 @@
 		"name": "validatorsMetadata",
 		"outputs": [
 			{
-				"name": "firstName",
+				"name": "",
 				"type": "string"
 			},
 			{
-				"name": "lastName",
+				"name": "",
 				"type": "string"
 			},
 			{
-				"name": "contactEmail",
+				"name": "",
 				"type": "string"
 			},
 			{
-				"name": "researchInstitute",
+				"name": "",
 				"type": "string"
 			},
 			{
-				"name": "researchField",
+				"name": "",
 				"type": "string"
 			},
 			{
-				"name": "instituteAddress",
+				"name": "",
 				"type": "string"
 			},
 			{
