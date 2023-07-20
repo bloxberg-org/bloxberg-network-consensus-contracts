@@ -1,0 +1,13 @@
+ResearchObjectCertification -
+To generate certificates for research objects that are used for certifying
+
+PoaNetworkabi - To get chain information (getValidators)
+
+ValidatorMetadata  -
+contract is used to add metadata information of a node on the chain.
+
+RelayedOwnedSet -
+contract is used for adding/removing a node to the bloxberg network .
+
+Voting -
+contract is used for complete voting functionality which includes adding/removing candidates for vote . creating voting proposals . finalizing voting .
