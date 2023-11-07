@@ -1,13 +1,14 @@
-ResearchObjectCertification -
+ResearchObjectCertification - 0x3fb704dfDB72Fc06860D9F09124C30919488f13C
 To generate certificates for research objects that are used for certifying
 
-PoaNetworkabi - To get chain information (getValidators)
+PoaNetworkabi - To get chain information (getValidators) - 0x9850711951A84Ef8a2A31a7868d0dCa34B0661cA
 
-ValidatorMetadata  -
+ValidatorMetadata  - 0xF2Cde379d6818Db4a8992ed132345e18e99689e9
 contract is used to add metadata information of a node on the chain.
 
-RelayedOwnedSet -
+RelayedOwnedSet ValidatorSetContract (AddingNewValidators) - 0x56e4F51aB81f67DEb59891107f80F83652b98FBD
 contract is used for adding/removing a node to the bloxberg network .
 
-Voting -
+Voting - 0x8b0Ba3C029FC12ba1FBeED4A6F7510cB3401885e
 contract is used for complete voting functionality which includes adding/removing candidates for vote . creating voting proposals . finalizing voting .
+
